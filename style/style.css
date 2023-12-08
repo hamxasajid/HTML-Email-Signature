@@ -1,0 +1,89 @@
+ .frmain{
+    background-color: orangered;
+    width: 100%;
+    max-width: 768px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+
+}
+
+.frmain .frstcol{
+    text-align: center;
+    width: 33%;
+    border-right: 4px solid orangered;
+    background-color: #333;
+    border-top-left-radius: 50px;
+}
+
+.frmain .logoimg{
+    width: 100%;
+    max-width: 80px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+
+.frmain p{
+    font-size: 30px;
+    margin-top: -5px;
+    color: #fff;
+}
+
+.frmain p .color{
+    color: orangered;
+}
+
+.frmain p .Sicon{
+    width: 100%;
+    max-width: 20px;
+    margin-top: 10px;
+    transition: all 1s;
+}
+
+.frmain p .Sicon:hover{
+    transform: translateY(8px);
+}
+
+.frmain .scndcol{
+    width: 33%;
+    background-color: #333;
+}
+
+.frmain .scndcol .user{
+    width: 100%;
+    max-width: 120px;
+    border-radius: 200px;
+    border: 8px double orangered;
+    padding: 2px;
+}
+
+.frmain .trdcol{
+    background-color: #333;
+    border-bottom-right-radius: 50px;
+    width: 33%; 
+}
+
+.frmain .trdcol h2{
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ 
+.frmain .trdcol .color{
+    color: orangered;
+}
+
+.frmain .trdcol p{
+    font-size: 20px;
+    margin-top: -30px;
+    color: #fff;
+}
+
+.frmain .trdcol .info{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.frmain .trdcol .Sicon{
+    width: 100%;
+    max-width: 12px;
+}
